@@ -1,7 +1,7 @@
 /*
 Program Name: pythag.c
 Author: Ankur Patel
-data-code-language="c"Program Intent: Print out a table of value of pythagorean triples upto given
+Program Intent: Print out a table of value of pythagorean triples upto given
                 input value. Pythagorean triples are realtively prime.
                 Ex of Pythagorean triples are 3,4,5       5,12,13 and so on.
 Input Data:     Positive integer
