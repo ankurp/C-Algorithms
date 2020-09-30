@@ -103,7 +103,7 @@ MATRIX *create_matrix( FILE *stream )
   fscanf( stream, "%d", &columns );
   
   /* Dynamically create 2D array and add data to it from input stream */
-  int (*matrix)[rows] = (int*)malloc( rows*columns*sizeof(int) );
+  int (*matrix)[rows] = (int*)malloc( columns*sizeof(int) );
 
   for( i = 0; i < rows; i++ ) {
 
